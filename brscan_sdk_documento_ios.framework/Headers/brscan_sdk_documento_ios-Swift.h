@@ -190,6 +190,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import AVFoundation;
 @import CoreGraphics;
+@import CoreLocation;
 @import CoreMedia;
 @import Foundation;
 @import ObjectiveC;
@@ -226,7 +227,16 @@ SWIFT_CLASS("_TtC24brscan_sdk_documento_ios30CapturaDocumentoViewController")
 - (void)viewDidAppear:(BOOL)animated;
 - (void)viewWillDisappear:(BOOL)animated;
 - (void)viewDidLayoutSubviews;
+- (void)viewDidDisappear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+@class CLLocationManager;
+@class CLLocation;
+
+@interface CapturaDocumentoViewController (SWIFT_EXTENSION(brscan_sdk_documento_ios)) <CLLocationManagerDelegate>
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
+- (void)locationManagerDidChangeAuthorization:(CLLocationManager * _Nonnull)manager;
 @end
 
 
@@ -244,7 +254,7 @@ SWIFT_CLASS("_TtC24brscan_sdk_documento_ios30CapturaDocumentoViewController")
 SWIFT_CLASS("_TtC24brscan_sdk_documento_ios31CapturarDocumentoViewController")
 @interface CapturarDocumentoViewController : UIViewController
 @property (nonatomic, strong) id <CapturarDocumentoViewControllerDelegate> _Nullable delegate;
-- (nonnull instancetype)initWithChave:(NSString * _Nonnull)chave cropDocumento:(BOOL)cropDocumento validaDocumento:(BOOL)validaDocumento wizard:(BOOL)wizard aceitaAB:(BOOL)aceitaAB tiposDocumentosAceitos:(NSArray<NSString *> * _Nonnull)tiposDocumentosAceitos segurancaExtra:(BOOL)segurancaExtra segurancaExtraSslPinning:(BOOL)segurancaExtraSslPinning segurancaExtraRootCheck:(BOOL)segurancaExtraRootCheck timeoutCapturaManual:(double)timeoutCapturaManual telaSelecaoDocumento:(BOOL)telaSelecaoDocumento resolucao:(NSString * _Nonnull)resolucao dicaSlide:(BOOL)dicaSlide ladoDocumentoAceito:(NSString * _Nonnull)ladoDocumentoAceito tipoRetorno:(NSString * _Nonnull)tipoRetorno telaPreview:(BOOL)telaPreview scoreMinimo:(NSInteger)scoreMinimo customizacaoTexto:(ConfiguracaoTextoDocumento * _Nonnull)customizacaoTexto retornarErros:(BOOL)retornarErros verificarLuminosidade:(BOOL)verificarLuminosidade tempoDelayMensagem:(NSInteger)tempoDelayMensagem acessibilidade:(BOOL)acessibilidade segurancaExtraEmulatorCheck:(BOOL)segurancaExtraEmulatorCheck OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithChave:(NSString * _Nonnull)chave cropDocumento:(BOOL)cropDocumento validaDocumento:(BOOL)validaDocumento wizard:(BOOL)wizard aceitaAB:(BOOL)aceitaAB tiposDocumentosAceitos:(NSArray<NSString *> * _Nonnull)tiposDocumentosAceitos segurancaExtra:(BOOL)segurancaExtra segurancaExtraSslPinning:(BOOL)segurancaExtraSslPinning segurancaExtraRootCheck:(BOOL)segurancaExtraRootCheck timeoutCapturaManual:(double)timeoutCapturaManual telaSelecaoDocumento:(BOOL)telaSelecaoDocumento resolucao:(NSString * _Nonnull)resolucao dicaSlide:(BOOL)dicaSlide ladoDocumentoAceito:(NSString * _Nonnull)ladoDocumentoAceito tipoRetorno:(NSString * _Nonnull)tipoRetorno telaPreview:(BOOL)telaPreview scoreMinimo:(NSInteger)scoreMinimo customizacaoTexto:(ConfiguracaoTextoDocumento * _Nonnull)customizacaoTexto retornarErros:(BOOL)retornarErros verificarLuminosidade:(BOOL)verificarLuminosidade tempoDelayMensagem:(NSInteger)tempoDelayMensagem acessibilidade:(BOOL)acessibilidade segurancaExtraEmulatorCheck:(BOOL)segurancaExtraEmulatorCheck tokenTentativa:(NSInteger)tokenTentativa OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;

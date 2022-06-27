@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/brscan_sdk_documento_ios-Swift.h</key>
 		<data>
-		Ca1eS+TSp4pthHIq5Zc9AYIgicg=
+		awa5Z3jSuZiLdE1cGqU4PJ38n4Q=
 		</data>
 		<key>Headers/brscan_sdk_documento_ios.h</key>
 		<data>
@@ -50,35 +50,35 @@
 		</data>
 		<key>Modules/brscan_sdk_documento_ios.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		qcDXFqyN1ydHaTwj5R7rP+znp4w=
+		yntJiZNU/W2K/b21uPIuy8TzBYo=
 		</data>
 		<key>Modules/brscan_sdk_documento_ios.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		qcDXFqyN1ydHaTwj5R7rP+znp4w=
+		yntJiZNU/W2K/b21uPIuy8TzBYo=
 		</data>
 		<key>Modules/brscan_sdk_documento_ios.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		dSZhl22tmeZUx3Mep4Y5Wsrd1zU=
+		mCGaDOeICRTklNGoVzJCFIBgOjE=
 		</data>
 		<key>Modules/brscan_sdk_documento_ios.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		VJdvTJkAvc+rFW0q0OAWe6Dq8bQ=
+		Ny04Dfn4B5XQOhUidFQJN33IOqU=
 		</data>
 		<key>Modules/brscan_sdk_documento_ios.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		xXMIiutlOogTXoOVK3ciRJ+lO10=
+		GycUDb5bt9ZDN5IJ4+0IjOKuEQk=
 		</data>
 		<key>Modules/brscan_sdk_documento_ios.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		dSZhl22tmeZUx3Mep4Y5Wsrd1zU=
+		mCGaDOeICRTklNGoVzJCFIBgOjE=
 		</data>
 		<key>Modules/brscan_sdk_documento_ios.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		VJdvTJkAvc+rFW0q0OAWe6Dq8bQ=
+		Ny04Dfn4B5XQOhUidFQJN33IOqU=
 		</data>
 		<key>Modules/brscan_sdk_documento_ios.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		xXMIiutlOogTXoOVK3ciRJ+lO10=
+		GycUDb5bt9ZDN5IJ4+0IjOKuEQk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>configuracoes_documento.plist</key>
 		<data>
-		IXWNMNTZ1bgXcna6RRnGlb7hi/o=
+		G4zFnh8nb6Sg+EvEywOkvZuWdP8=
 		</data>
 		<key>dica_1.png</key>
 		<data>
@@ -201,7 +201,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7Nc4UKEX2j+fG6Ct5FNATC6WA+WIRY38nkbxMWbWPa0=
+			aEY3OvPv/ZDHI4C8KNEE1sL8GBKjWBQrfeZxixFw0/0=
 			</data>
 		</dict>
 		<key>Headers/brscan_sdk_documento_ios.h</key>
@@ -257,56 +257,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Reyq+BtqSwXLLnZcNSAN4BeRqOnGGexZGKcJxkm3q8E=
+			PbkexQjXaTZ0qXjh7FmAs3YVuCauZscuXsxetGFuuOs=
 			</data>
 		</dict>
 		<key>Modules/brscan_sdk_documento_ios.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Reyq+BtqSwXLLnZcNSAN4BeRqOnGGexZGKcJxkm3q8E=
+			PbkexQjXaTZ0qXjh7FmAs3YVuCauZscuXsxetGFuuOs=
 			</data>
 		</dict>
 		<key>Modules/brscan_sdk_documento_ios.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HY2qnCi8nbhJzuC/L3XqLC4/DXg2nUz0ab+mjGdFzUQ=
+			jJjR05RIBGWDPMe8O/y/Arfnf6baSh3dxhNxPUODsus=
 			</data>
 		</dict>
 		<key>Modules/brscan_sdk_documento_ios.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3xHEGv3XBIOCUS7UBkpRovYAUNy0L0ZL5EmITBwFQHw=
+			iKOpYTmmohwLD++yWZj71Za9ZJdWEd7mXASTmpZE7iI=
 			</data>
 		</dict>
 		<key>Modules/brscan_sdk_documento_ios.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G3iJEDK0vv+wNo2f6DCYCtGWvcRqI8PSTV0odkgTyQI=
+			Lkeo/vWxHBplrpHdje/bRy6gQFP48kxCrdKYoyuuY7M=
 			</data>
 		</dict>
 		<key>Modules/brscan_sdk_documento_ios.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HY2qnCi8nbhJzuC/L3XqLC4/DXg2nUz0ab+mjGdFzUQ=
+			jJjR05RIBGWDPMe8O/y/Arfnf6baSh3dxhNxPUODsus=
 			</data>
 		</dict>
 		<key>Modules/brscan_sdk_documento_ios.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3xHEGv3XBIOCUS7UBkpRovYAUNy0L0ZL5EmITBwFQHw=
+			iKOpYTmmohwLD++yWZj71Za9ZJdWEd7mXASTmpZE7iI=
 			</data>
 		</dict>
 		<key>Modules/brscan_sdk_documento_ios.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G3iJEDK0vv+wNo2f6DCYCtGWvcRqI8PSTV0odkgTyQI=
+			Lkeo/vWxHBplrpHdje/bRy6gQFP48kxCrdKYoyuuY7M=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -376,7 +376,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LrnqalGgKJFxlV7+4EW3fR8i6ixcfnCLA7rqTSZ79bA=
+			JP9Tort/nEdR9PGxs6tRIvzipJb1/85VstOJk35Nvb4=
 			</data>
 		</dict>
 		<key>dica_1.png</key>
